@@ -1,0 +1,15 @@
+# VS Code
+.vscode/
+*.code-workspace
+
+# Migrations
+migrations/
+
+# Environment variables
+.env
+.env.*
+
+# Ignore root images folder
+/images/
+
+
