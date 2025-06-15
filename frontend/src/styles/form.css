@@ -1,0 +1,11 @@
+.input-line {
+  @apply grid grid-cols-[120px_1fr] items-center gap-2 w-full;
+}
+
+.input-label {
+  @apply text-content-main text-sm;
+}
+
+.input-block{
+    @apply w-full h-9 text-sm px-3 py-1 rounded-md border border-input bg-transparent shadow-sm transition-colors overflow-hidden text-ellipsis whitespace-nowrap focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50;
+}
