@@ -28,7 +28,7 @@ export default function FileInput() {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center gap-2 p-4 max-w-full">
+    <div className="flex flex-col justify-center items-center gap-2 p-2 px-[50px] w-full max-w-full ">
       <input
         type="file"
         ref={inputRef}

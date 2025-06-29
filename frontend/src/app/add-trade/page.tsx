@@ -7,7 +7,7 @@ export default function AddTradePage() {
 
             <main className="flex flex-grow flex-1 overflow-hidden">
                 {/* Form area */}
-                <div className="flex-grow min-w-0 overflow-y-auto p-4">
+                <div className="flex-grow min-w-0 overflow-y-auto p-4 ">
                     <AddTradeForm />
                 </div>
 
